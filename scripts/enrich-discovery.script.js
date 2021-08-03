@@ -24,9 +24,9 @@ function createServerInfoObject(target) {
     maxMoneyInMillions: parseFloat((getServerMaxMoney(target) / ONE_MILLION).toFixed(TWO_DECIMAL_PLACES)),
     availableMoneyInMillions: parseFloat((getServerMoneyAvailable(target) / ONE_MILLION).toFixed(TWO_DECIMAL_PLACES)),
     numberOfPortsRequired: getServerNumPortsRequired(target),
-    hackTimeInSeconds: getHackTime(target).toFixed(TWO_DECIMAL_PLACES),
-    growTimeInSeconds: getGrowTime(target).toFixed(TWO_DECIMAL_PLACES),
-    weakenTimeInSeconds: getWeakenTime(target).toFixed(TWO_DECIMAL_PLACES)
+    hackTimeInSeconds: parseFloat(getHackTime(target).toFixed(TWO_DECIMAL_PLACES)),
+    growTimeInSeconds: parseFloat(getGrowTime(target).toFixed(TWO_DECIMAL_PLACES)),
+    weakenTimeInSeconds: parseFloat(getWeakenTime(target).toFixed(TWO_DECIMAL_PLACES))
   };
 
 }

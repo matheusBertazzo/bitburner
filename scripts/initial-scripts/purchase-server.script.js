@@ -1,6 +1,7 @@
 // How much RAM each purchased server will have. In this case, it'll
 // be 8GB.
 var ram = 8;
+var script = 'hack-target.script';
 
 // Iterator we'll use for our loop
 var i = 0;
@@ -16,8 +17,8 @@ while (i < getPurchasedServerLimit()) {
         //  3. Run our hacking script on the newly-purchased server with 3 threads
         //  4. Increment our iterator to indicate that we've bought a new server
         var hostname = purchaseServer("pserv-" + i, ram);
-        scp("initial-hacking.script", hostname);
-        exec("initial-hacking.script", hostname, 2);
+        scp(script, hostname);
+        exec(script, hostname, 3);
         ++i;
     }
 }

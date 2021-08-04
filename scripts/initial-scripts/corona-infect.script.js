@@ -1,21 +1,18 @@
-var possibleHosts = scan("home");
-var targetScript = "self-hack.script";
+var possibleHosts = JSON.parse(read('hosts-info.db.txt'));
+var targetScript = "hack-target.script";
 
 for (var i = 0; i < possibleHosts.length; i++) {
     var target = possibleHosts[i];
-    print('Conecting to target: ' + target);
-
-    if (hasRootAccess(target)) {
-        killall(target);
-        var maxRam = getServerMaxRam(target);
-        var usedRam = getServerUsedRam(target);
-        var maxPossibleInstances = Math.floor((maxRam - usedRam) / 2.45);
-        print('--------------------');
-        print('Target: ' + target);
-        print('maxRam: ' + maxRam);
-        print('usedRam: ' + usedRam);
-        print('maxPossibleInstances: ' + maxPossibleInstances);
-        scp(targetScript, target);
-        exec(targetScript, target, maxPossibleInstances);
+    
+    if (target.hasRootAccess) {
+        tprint('Conecting to target: ' + target.hostName);
+        var maxRam = target.maxRAM;
+        var maxPossibleInstances = Math.floor(maxRam / 2.45);
+        if(target.hostName == 'home' || target.maxRAM == 0){
+            continue;       
+        }
+        killall(target.hostName);
+        scp(targetScript, target.hostName);
+        exec(targetScript, target.hostName, maxPossibleInstances);
     }
 }

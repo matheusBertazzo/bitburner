@@ -4,55 +4,60 @@
     "hasRootAccess": true,
     "hackChancePercentage": 98,
     "maxMoneyInMillions": 0,
-    "availableMoneyInMillions": 8.43,
+    "availableMoneyInMillions": 26.43,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "12.44",
-    "growTimeInSeconds": "39.80",
-    "weakenTimeInSeconds": "49.75"
+    "hackTimeInSeconds": 10.21,
+    "growTimeInSeconds": 32.68,
+    "weakenTimeInSeconds": 40.85,
+    "maxRAM": 16
   },
   {
     "hostName": "n00dles",
     "hasRootAccess": true,
-    "hackChancePercentage": 97,
+    "hackChancePercentage": 96,
     "maxMoneyInMillions": 1.75,
-    "availableMoneyInMillions": 1.34,
+    "availableMoneyInMillions": 1.31,
     "numberOfPortsRequired": 0,
-    "hackTimeInSeconds": "12.54",
-    "growTimeInSeconds": "40.12",
-    "weakenTimeInSeconds": "50.15"
+    "hackTimeInSeconds": 10.35,
+    "growTimeInSeconds": 33.11,
+    "weakenTimeInSeconds": 41.39,
+    "maxRAM": 4
   },
   {
     "hostName": "foodnstuff",
     "hasRootAccess": true,
     "hackChancePercentage": 91,
     "maxMoneyInMillions": 50,
-    "availableMoneyInMillions": 4.01,
+    "availableMoneyInMillions": 7.66,
     "numberOfPortsRequired": 0,
-    "hackTimeInSeconds": "12.87",
-    "growTimeInSeconds": "41.19",
-    "weakenTimeInSeconds": "51.49"
+    "hackTimeInSeconds": 10.56,
+    "growTimeInSeconds": 33.8,
+    "weakenTimeInSeconds": 42.25,
+    "maxRAM": 16
   },
   {
     "hostName": "max-hardware",
-    "hasRootAccess": false,
-    "hackChancePercentage": 59,
+    "hasRootAccess": true,
+    "hackChancePercentage": 65,
     "maxMoneyInMillions": 250,
     "availableMoneyInMillions": 10,
     "numberOfPortsRequired": 1,
-    "hackTimeInSeconds": "86.63",
-    "growTimeInSeconds": "277.23",
-    "weakenTimeInSeconds": "346.53"
+    "hackTimeInSeconds": 71.14,
+    "growTimeInSeconds": 227.64,
+    "weakenTimeInSeconds": 284.55,
+    "maxRAM": 32
   },
   {
     "hostName": "phantasy",
-    "hasRootAccess": false,
-    "hackChancePercentage": 49,
+    "hasRootAccess": true,
+    "hackChancePercentage": 56,
     "maxMoneyInMillions": 600,
     "availableMoneyInMillions": 24,
     "numberOfPortsRequired": 2,
-    "hackTimeInSeconds": "136.14",
-    "growTimeInSeconds": "435.64",
-    "weakenTimeInSeconds": "544.55"
+    "hackTimeInSeconds": 111.79,
+    "growTimeInSeconds": 357.72,
+    "weakenTimeInSeconds": 447.15,
+    "maxRAM": 32
   },
   {
     "hostName": "comptek",
@@ -61,20 +66,22 @@
     "maxMoneyInMillions": 6029.49,
     "availableMoneyInMillions": 241.18,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "1556.19",
-    "growTimeInSeconds": "4979.80",
-    "weakenTimeInSeconds": "6224.75"
+    "hackTimeInSeconds": 1277.85,
+    "growTimeInSeconds": 4089.11,
+    "weakenTimeInSeconds": 5111.38,
+    "maxRAM": 0
   },
   {
     "hostName": "johnson-ortho",
-    "hasRootAccess": false,
-    "hackChancePercentage": 1,
+    "hasRootAccess": true,
+    "hackChancePercentage": 9,
     "maxMoneyInMillions": 1976.92,
     "availableMoneyInMillions": 79.08,
     "numberOfPortsRequired": 2,
-    "hackTimeInSeconds": "1002.23",
-    "growTimeInSeconds": "3207.13",
-    "weakenTimeInSeconds": "4008.91"
+    "hackTimeInSeconds": 822.97,
+    "growTimeInSeconds": 2633.5,
+    "weakenTimeInSeconds": 3291.87,
+    "maxRAM": 0
   },
   {
     "hostName": "syscore",
@@ -83,9 +90,10 @@
     "maxMoneyInMillions": 14301.37,
     "availableMoneyInMillions": 572.05,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "2195.54",
-    "growTimeInSeconds": "7025.74",
-    "weakenTimeInSeconds": "8782.18"
+    "hackTimeInSeconds": 1802.85,
+    "growTimeInSeconds": 5769.11,
+    "weakenTimeInSeconds": 7211.38,
+    "maxRAM": 0
   },
   {
     "hostName": "aevum-police",
@@ -94,9 +102,10 @@
     "maxMoneyInMillions": 6593.27,
     "availableMoneyInMillions": 263.73,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "1832.86",
-    "growTimeInSeconds": "5865.15",
-    "weakenTimeInSeconds": "7331.44"
+    "hackTimeInSeconds": 1505.03,
+    "growTimeInSeconds": 4816.1,
+    "weakenTimeInSeconds": 6020.12,
+    "maxRAM": 64
   },
   {
     "hostName": "millenium-fitness",
@@ -105,9 +114,10 @@
     "maxMoneyInMillions": 6250,
     "availableMoneyInMillions": 250,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "1428.77",
-    "growTimeInSeconds": "4572.08",
-    "weakenTimeInSeconds": "5715.10"
+    "hackTimeInSeconds": 1173.22,
+    "growTimeInSeconds": 3754.31,
+    "weakenTimeInSeconds": 4692.89,
+    "maxRAM": 32
   },
   {
     "hostName": "snap-fitness",
@@ -116,9 +126,10 @@
     "maxMoneyInMillions": 11250,
     "availableMoneyInMillions": 450,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "2579.02",
-    "growTimeInSeconds": "8252.87",
-    "weakenTimeInSeconds": "10316.09"
+    "hackTimeInSeconds": 2117.73,
+    "growTimeInSeconds": 6776.75,
+    "weakenTimeInSeconds": 8470.93,
+    "maxRAM": 0
   },
   {
     "hostName": "global-pharm",
@@ -127,9 +138,10 @@
     "maxMoneyInMillions": 43382.48,
     "availableMoneyInMillions": 1735.3,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "3806.19",
-    "growTimeInSeconds": "12179.80",
-    "weakenTimeInSeconds": "15224.75"
+    "hackTimeInSeconds": 3125.41,
+    "growTimeInSeconds": 10001.3,
+    "weakenTimeInSeconds": 12501.63,
+    "maxRAM": 32
   },
   {
     "hostName": "rothman-uni",
@@ -138,9 +150,10 @@
     "maxMoneyInMillions": 4461.95,
     "availableMoneyInMillions": 178.48,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "1393.13",
-    "growTimeInSeconds": "4458.02",
-    "weakenTimeInSeconds": "5572.52"
+    "hackTimeInSeconds": 1143.95,
+    "growTimeInSeconds": 3660.65,
+    "weakenTimeInSeconds": 4575.81,
+    "maxRAM": 16
   },
   {
     "hostName": "lexo-corp",
@@ -149,97 +162,106 @@
     "maxMoneyInMillions": 19781.74,
     "availableMoneyInMillions": 791.27,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "3158.17",
-    "growTimeInSeconds": "10106.14",
-    "weakenTimeInSeconds": "12632.67"
+    "hackTimeInSeconds": 2593.29,
+    "growTimeInSeconds": 8298.54,
+    "weakenTimeInSeconds": 10373.17,
+    "maxRAM": 16
   },
   {
     "hostName": "sigma-cosmetics",
     "hasRootAccess": true,
     "hackChancePercentage": 90,
     "maxMoneyInMillions": 57.5,
-    "availableMoneyInMillions": 6.5,
+    "availableMoneyInMillions": 20.96,
     "numberOfPortsRequired": 0,
-    "hackTimeInSeconds": "14.77",
-    "growTimeInSeconds": "47.26",
-    "weakenTimeInSeconds": "59.08"
+    "hackTimeInSeconds": 12.12,
+    "growTimeInSeconds": 38.78,
+    "weakenTimeInSeconds": 48.48,
+    "maxRAM": 16
   },
   {
     "hostName": "nectar-net",
-    "hasRootAccess": false,
-    "hackChancePercentage": 73,
+    "hasRootAccess": true,
+    "hackChancePercentage": 75,
     "maxMoneyInMillions": 68.75,
     "availableMoneyInMillions": 2.75,
     "numberOfPortsRequired": 0,
-    "hackTimeInSeconds": "37.13",
-    "growTimeInSeconds": "118.81",
-    "weakenTimeInSeconds": "148.51"
+    "hackTimeInSeconds": 30.49,
+    "growTimeInSeconds": 97.56,
+    "weakenTimeInSeconds": 121.95,
+    "maxRAM": 16
   },
   {
     "hostName": "CSEC",
-    "hasRootAccess": false,
-    "hackChancePercentage": 77,
+    "hasRootAccess": true,
+    "hackChancePercentage": 81,
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 1,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.60",
-    "weakenTimeInSeconds": "49.50"
+    "hackTimeInSeconds": 13.16,
+    "growTimeInSeconds": 42.11,
+    "weakenTimeInSeconds": 52.64,
+    "maxRAM": 8
   },
   {
     "hostName": "neo-net",
-    "hasRootAccess": false,
-    "hackChancePercentage": 60,
+    "hasRootAccess": true,
+    "hackChancePercentage": 64,
     "maxMoneyInMillions": 125,
     "availableMoneyInMillions": 5,
     "numberOfPortsRequired": 1,
-    "hackTimeInSeconds": "89.73",
-    "growTimeInSeconds": "287.13",
-    "weakenTimeInSeconds": "358.91"
+    "hackTimeInSeconds": 73.68,
+    "growTimeInSeconds": 235.77,
+    "weakenTimeInSeconds": 294.72,
+    "maxRAM": 32
   },
   {
     "hostName": "silver-helix",
-    "hasRootAccess": false,
-    "hackChancePercentage": 30,
+    "hasRootAccess": true,
+    "hackChancePercentage": 39,
     "maxMoneyInMillions": 1125,
     "availableMoneyInMillions": 45,
     "numberOfPortsRequired": 2,
-    "hackTimeInSeconds": "290.84",
-    "growTimeInSeconds": "930.69",
-    "weakenTimeInSeconds": "1163.37"
+    "hackTimeInSeconds": 238.82,
+    "growTimeInSeconds": 764.23,
+    "weakenTimeInSeconds": 955.28,
+    "maxRAM": 64
   },
   {
     "hostName": "omega-net",
-    "hasRootAccess": false,
-    "hackChancePercentage": 19,
+    "hasRootAccess": true,
+    "hackChancePercentage": 30,
     "maxMoneyInMillions": 1683.94,
     "availableMoneyInMillions": 67.36,
     "numberOfPortsRequired": 2,
-    "hackTimeInSeconds": "394.25",
-    "growTimeInSeconds": "1261.58",
-    "weakenTimeInSeconds": "1576.98"
+    "hackTimeInSeconds": 323.73,
+    "growTimeInSeconds": 1035.93,
+    "weakenTimeInSeconds": 1294.92,
+    "maxRAM": 32
   },
   {
     "hostName": "the-hub",
-    "hasRootAccess": false,
-    "hackChancePercentage": 0,
+    "hasRootAccess": true,
+    "hackChancePercentage": 5,
     "maxMoneyInMillions": 3874.15,
     "availableMoneyInMillions": 154.97,
     "numberOfPortsRequired": 2,
-    "hackTimeInSeconds": "848.27",
-    "growTimeInSeconds": "2714.46",
-    "weakenTimeInSeconds": "3393.07"
+    "hackTimeInSeconds": 696.54,
+    "growTimeInSeconds": 2228.94,
+    "weakenTimeInSeconds": 2786.18,
+    "maxRAM": 16
   },
   {
     "hostName": "crush-fitness",
-    "hasRootAccess": false,
-    "hackChancePercentage": 0,
+    "hasRootAccess": true,
+    "hackChancePercentage": 12,
     "maxMoneyInMillions": 1490.67,
     "availableMoneyInMillions": 59.63,
     "numberOfPortsRequired": 2,
-    "hackTimeInSeconds": "739.36",
-    "growTimeInSeconds": "2365.94",
-    "weakenTimeInSeconds": "2957.43"
+    "hackTimeInSeconds": 607.11,
+    "growTimeInSeconds": 1942.76,
+    "weakenTimeInSeconds": 2428.46,
+    "maxRAM": 0
   },
   {
     "hostName": "summit-uni",
@@ -248,9 +270,10 @@
     "maxMoneyInMillions": 5364.09,
     "availableMoneyInMillions": 214.56,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "1400.99",
-    "growTimeInSeconds": "4483.17",
-    "weakenTimeInSeconds": "5603.96"
+    "hackTimeInSeconds": 1150.41,
+    "growTimeInSeconds": 3681.3,
+    "weakenTimeInSeconds": 4601.63,
+    "maxRAM": 32
   },
   {
     "hostName": "I.I.I.I",
@@ -259,9 +282,10 @@
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.60",
-    "weakenTimeInSeconds": "49.50"
+    "hackTimeInSeconds": 10.16,
+    "growTimeInSeconds": 32.52,
+    "weakenTimeInSeconds": 40.65,
+    "maxRAM": 128
   },
   {
     "hostName": "rho-construction",
@@ -270,20 +294,22 @@
     "maxMoneyInMillions": 14770.33,
     "availableMoneyInMillions": 590.81,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "1571.78",
-    "growTimeInSeconds": "5029.70",
-    "weakenTimeInSeconds": "6287.13"
+    "hackTimeInSeconds": 1290.65,
+    "growTimeInSeconds": 4130.08,
+    "weakenTimeInSeconds": 5162.6,
+    "maxRAM": 64
   },
   {
     "hostName": "avmnite-02h",
-    "hasRootAccess": false,
-    "hackChancePercentage": 21,
+    "hasRootAccess": true,
+    "hackChancePercentage": 38,
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 2,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.60",
-    "weakenTimeInSeconds": "49.50"
+    "hackTimeInSeconds": 10.16,
+    "growTimeInSeconds": 32.52,
+    "weakenTimeInSeconds": 40.65,
+    "maxRAM": 64
   },
   {
     "hostName": "zb-institute",
@@ -292,9 +318,10 @@
     "maxMoneyInMillions": 20757.76,
     "availableMoneyInMillions": 830.31,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "3034.65",
-    "growTimeInSeconds": "9710.89",
-    "weakenTimeInSeconds": "12138.61"
+    "hackTimeInSeconds": 2491.87,
+    "growTimeInSeconds": 7973.98,
+    "weakenTimeInSeconds": 9967.48,
+    "maxRAM": 32
   },
   {
     "hostName": "netlink",
@@ -303,9 +330,10 @@
     "maxMoneyInMillions": 6875,
     "availableMoneyInMillions": 275,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "1640.84",
-    "growTimeInSeconds": "5250.69",
-    "weakenTimeInSeconds": "6563.37"
+    "hackTimeInSeconds": 1347.36,
+    "growTimeInSeconds": 4311.54,
+    "weakenTimeInSeconds": 5389.43,
+    "maxRAM": 128
   },
   {
     "hostName": "catalyst",
@@ -314,9 +342,10 @@
     "maxMoneyInMillions": 9339.37,
     "availableMoneyInMillions": 373.57,
     "numberOfPortsRequired": 3,
-    "hackTimeInSeconds": "1814.36",
-    "growTimeInSeconds": "5805.94",
-    "weakenTimeInSeconds": "7257.43"
+    "hackTimeInSeconds": 1489.84,
+    "growTimeInSeconds": 4767.48,
+    "weakenTimeInSeconds": 5959.35,
+    "maxRAM": 16
   },
   {
     "hostName": "alpha-ent",
@@ -325,9 +354,10 @@
     "maxMoneyInMillions": 18267.44,
     "availableMoneyInMillions": 730.7,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "2189.05",
-    "growTimeInSeconds": "7004.95",
-    "weakenTimeInSeconds": "8756.19"
+    "hackTimeInSeconds": 1797.51,
+    "growTimeInSeconds": 5752.03,
+    "weakenTimeInSeconds": 7190.04,
+    "maxRAM": 16
   },
   {
     "hostName": "galactic-cyber",
@@ -336,9 +366,10 @@
     "maxMoneyInMillions": 20991.31,
     "availableMoneyInMillions": 839.65,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "3411.20",
-    "growTimeInSeconds": "10915.84",
-    "weakenTimeInSeconds": "13644.80"
+    "hackTimeInSeconds": 2801.07,
+    "growTimeInSeconds": 8963.41,
+    "weakenTimeInSeconds": 11204.27,
+    "maxRAM": 0
   },
   {
     "hostName": "aerocorp",
@@ -347,9 +378,10 @@
     "maxMoneyInMillions": 29661.1,
     "availableMoneyInMillions": 1186.44,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4900.74",
-    "growTimeInSeconds": "15682.38",
-    "weakenTimeInSeconds": "19602.97"
+    "hackTimeInSeconds": 4024.19,
+    "growTimeInSeconds": 12877.4,
+    "weakenTimeInSeconds": 16096.75,
+    "maxRAM": 0
   },
   {
     "hostName": "omnia",
@@ -358,9 +390,10 @@
     "maxMoneyInMillions": 23200.38,
     "availableMoneyInMillions": 928.02,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "5189.36",
-    "growTimeInSeconds": "16605.94",
-    "weakenTimeInSeconds": "20757.43"
+    "hackTimeInSeconds": 4261.18,
+    "growTimeInSeconds": 13635.77,
+    "weakenTimeInSeconds": 17044.72,
+    "maxRAM": 32
   },
   {
     "hostName": "univ-energy",
@@ -369,9 +402,10 @@
     "maxMoneyInMillions": 27650.1,
     "availableMoneyInMillions": 1106,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "5019.18",
-    "growTimeInSeconds": "16061.39",
-    "weakenTimeInSeconds": "20076.73"
+    "hackTimeInSeconds": 4121.44,
+    "growTimeInSeconds": 13188.62,
+    "weakenTimeInSeconds": 16485.77,
+    "maxRAM": 32
   },
   {
     "hostName": "solaris",
@@ -380,9 +414,10 @@
     "maxMoneyInMillions": 19808.8,
     "availableMoneyInMillions": 792.35,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4076.49",
-    "growTimeInSeconds": "13044.75",
-    "weakenTimeInSeconds": "16305.94"
+    "hackTimeInSeconds": 3347.36,
+    "growTimeInSeconds": 10711.54,
+    "weakenTimeInSeconds": 13389.43,
+    "maxRAM": 16
   },
   {
     "hostName": "zeus-med",
@@ -391,9 +426,10 @@
     "maxMoneyInMillions": 35069.07,
     "availableMoneyInMillions": 1402.76,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "3534.03",
-    "growTimeInSeconds": "11308.91",
-    "weakenTimeInSeconds": "14136.14"
+    "hackTimeInSeconds": 2901.93,
+    "growTimeInSeconds": 9286.18,
+    "weakenTimeInSeconds": 11607.72,
+    "maxRAM": 0
   },
   {
     "hostName": "nova-med",
@@ -402,9 +438,10 @@
     "maxMoneyInMillions": 30857.73,
     "availableMoneyInMillions": 1234.31,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "3826.86",
-    "growTimeInSeconds": "12245.94",
-    "weakenTimeInSeconds": "15307.43"
+    "hackTimeInSeconds": 3142.38,
+    "growTimeInSeconds": 10055.61,
+    "weakenTimeInSeconds": 12569.51,
+    "maxRAM": 0
   },
   {
     "hostName": "infocomm",
@@ -413,9 +450,10 @@
     "maxMoneyInMillions": 21236.08,
     "availableMoneyInMillions": 849.44,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4367.33",
-    "growTimeInSeconds": "13975.45",
-    "weakenTimeInSeconds": "17469.31"
+    "hackTimeInSeconds": 3586.18,
+    "growTimeInSeconds": 11475.77,
+    "weakenTimeInSeconds": 14344.72,
+    "maxRAM": 0
   },
   {
     "hostName": "applied-energetics",
@@ -424,9 +462,10 @@
     "maxMoneyInMillions": 22764.52,
     "availableMoneyInMillions": 910.58,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "4016.15",
-    "growTimeInSeconds": "12851.68",
-    "weakenTimeInSeconds": "16064.60"
+    "hackTimeInSeconds": 3297.82,
+    "growTimeInSeconds": 10553.01,
+    "weakenTimeInSeconds": 13191.26,
+    "maxRAM": 0
   },
   {
     "hostName": "vitalife",
@@ -435,9 +474,10 @@
     "maxMoneyInMillions": 18623.54,
     "availableMoneyInMillions": 744.94,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4344.06",
-    "growTimeInSeconds": "13900.99",
-    "weakenTimeInSeconds": "17376.24"
+    "hackTimeInSeconds": 3567.07,
+    "growTimeInSeconds": 11414.63,
+    "weakenTimeInSeconds": 14268.29,
+    "maxRAM": 32
   },
   {
     "hostName": "zb-def",
@@ -446,9 +486,10 @@
     "maxMoneyInMillions": 25980.44,
     "availableMoneyInMillions": 1039.22,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "3168.81",
-    "growTimeInSeconds": "10140.20",
-    "weakenTimeInSeconds": "12675.25"
+    "hackTimeInSeconds": 2602.03,
+    "growTimeInSeconds": 8326.5,
+    "weakenTimeInSeconds": 10408.13,
+    "maxRAM": 0
   },
   {
     "hostName": "titan-labs",
@@ -457,9 +498,10 @@
     "maxMoneyInMillions": 20629.29,
     "availableMoneyInMillions": 825.17,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "3812.38",
-    "growTimeInSeconds": "12199.60",
-    "weakenTimeInSeconds": "15249.50"
+    "hackTimeInSeconds": 3130.49,
+    "growTimeInSeconds": 10017.56,
+    "weakenTimeInSeconds": 12521.95,
+    "maxRAM": 128
   },
   {
     "hostName": "microdyne",
@@ -468,9 +510,10 @@
     "maxMoneyInMillions": 15781.94,
     "availableMoneyInMillions": 631.28,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "3694.18",
-    "growTimeInSeconds": "11821.39",
-    "weakenTimeInSeconds": "14776.73"
+    "hackTimeInSeconds": 3033.43,
+    "growTimeInSeconds": 9706.99,
+    "weakenTimeInSeconds": 12133.74,
+    "maxRAM": 16
   },
   {
     "hostName": "stormtech",
@@ -479,9 +522,10 @@
     "maxMoneyInMillions": 26395.88,
     "availableMoneyInMillions": 1055.84,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4527.23",
-    "growTimeInSeconds": "14487.13",
-    "weakenTimeInSeconds": "18108.91"
+    "hackTimeInSeconds": 3717.48,
+    "growTimeInSeconds": 11895.93,
+    "weakenTimeInSeconds": 14869.92,
+    "maxRAM": 0
   },
   {
     "hostName": "omnitek",
@@ -490,9 +534,10 @@
     "maxMoneyInMillions": 391789.06,
     "availableMoneyInMillions": 15671.56,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "5790.35",
-    "growTimeInSeconds": "18529.11",
-    "weakenTimeInSeconds": "23161.39"
+    "hackTimeInSeconds": 4754.67,
+    "growTimeInSeconds": 15214.96,
+    "weakenTimeInSeconds": 19018.7,
+    "maxRAM": 512
   },
   {
     "hostName": "blade",
@@ -501,9 +546,10 @@
     "maxMoneyInMillions": 253081.68,
     "availableMoneyInMillions": 10123.27,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "5991.58",
-    "growTimeInSeconds": "19173.07",
-    "weakenTimeInSeconds": "23966.34"
+    "hackTimeInSeconds": 4919.92,
+    "growTimeInSeconds": 15743.74,
+    "weakenTimeInSeconds": 19679.67,
+    "maxRAM": 32
   },
   {
     "hostName": "megacorp",
@@ -512,9 +558,10 @@
     "maxMoneyInMillions": 1297267.85,
     "availableMoneyInMillions": 51890.71,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "7878.47",
-    "growTimeInSeconds": "25211.09",
-    "weakenTimeInSeconds": "31513.86"
+    "hackTimeInSeconds": 6469.31,
+    "growTimeInSeconds": 20701.79,
+    "weakenTimeInSeconds": 25877.24,
+    "maxRAM": 0
   },
   {
     "hostName": "fulcrumtech",
@@ -523,9 +570,10 @@
     "maxMoneyInMillions": 38587.19,
     "availableMoneyInMillions": 1543.49,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "6325.99",
-    "growTimeInSeconds": "20243.17",
-    "weakenTimeInSeconds": "25303.96"
+    "hackTimeInSeconds": 5194.51,
+    "growTimeInSeconds": 16622.44,
+    "weakenTimeInSeconds": 20778.05,
+    "maxRAM": 256
   },
   {
     "hostName": "helios",
@@ -534,9 +582,10 @@
     "maxMoneyInMillions": 18057.88,
     "availableMoneyInMillions": 722.32,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4566.96",
-    "growTimeInSeconds": "14614.26",
-    "weakenTimeInSeconds": "18267.82"
+    "hackTimeInSeconds": 3750.1,
+    "growTimeInSeconds": 12000.33,
+    "weakenTimeInSeconds": 15000.41,
+    "maxRAM": 32
   },
   {
     "hostName": "4sigma",
@@ -545,9 +594,10 @@
     "maxMoneyInMillions": 442922.71,
     "availableMoneyInMillions": 17716.91,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "3888.92",
-    "growTimeInSeconds": "12444.55",
-    "weakenTimeInSeconds": "15555.69"
+    "hackTimeInSeconds": 3193.34,
+    "growTimeInSeconds": 10218.7,
+    "weakenTimeInSeconds": 12773.37,
+    "maxRAM": 0
   },
   {
     "hostName": "nwo",
@@ -556,9 +606,10 @@
     "maxMoneyInMillions": 838599.99,
     "availableMoneyInMillions": 33544,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "7314.85",
-    "growTimeInSeconds": "23407.52",
-    "weakenTimeInSeconds": "29259.41"
+    "hackTimeInSeconds": 6006.5,
+    "growTimeInSeconds": 19220.81,
+    "weakenTimeInSeconds": 24026.02,
+    "maxRAM": 0
   },
   {
     "hostName": "clarkinc",
@@ -567,9 +618,10 @@
     "maxMoneyInMillions": 388428.64,
     "availableMoneyInMillions": 15537.15,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4495.17",
-    "growTimeInSeconds": "14384.55",
-    "weakenTimeInSeconds": "17980.69"
+    "hackTimeInSeconds": 3691.16,
+    "growTimeInSeconds": 11811.71,
+    "weakenTimeInSeconds": 14764.63,
+    "maxRAM": 0
   },
   {
     "hostName": "The-Cave",
@@ -578,9 +630,10 @@
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.60",
-    "weakenTimeInSeconds": "49.50"
+    "hackTimeInSeconds": 10.16,
+    "growTimeInSeconds": 32.52,
+    "weakenTimeInSeconds": 40.65,
+    "maxRAM": 0
   },
   {
     "hostName": "kuai-gong",
@@ -589,9 +642,10 @@
     "maxMoneyInMillions": 642449.28,
     "availableMoneyInMillions": 25697.97,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "7301.98",
-    "growTimeInSeconds": "23366.34",
-    "weakenTimeInSeconds": "29207.92"
+    "hackTimeInSeconds": 5995.93,
+    "growTimeInSeconds": 19186.99,
+    "weakenTimeInSeconds": 23983.74,
+    "maxRAM": 0
   },
   {
     "hostName": ".",
@@ -600,9 +654,10 @@
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.60",
-    "weakenTimeInSeconds": "49.50"
+    "hackTimeInSeconds": 10.16,
+    "growTimeInSeconds": 32.52,
+    "weakenTimeInSeconds": 40.65,
+    "maxRAM": 16
   },
   {
     "hostName": "b-and-a",
@@ -611,9 +666,10 @@
     "maxMoneyInMillions": 634401.52,
     "availableMoneyInMillions": 25376.06,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4846.23",
-    "growTimeInSeconds": "15507.92",
-    "weakenTimeInSeconds": "19384.90"
+    "hackTimeInSeconds": 3979.42,
+    "growTimeInSeconds": 12734.15,
+    "weakenTimeInSeconds": 15917.68,
+    "maxRAM": 0
   },
   {
     "hostName": "powerhouse-fitness",
@@ -622,9 +678,10 @@
     "maxMoneyInMillions": 22500,
     "availableMoneyInMillions": 900,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "3840.35",
-    "growTimeInSeconds": "12289.11",
-    "weakenTimeInSeconds": "15361.39"
+    "hackTimeInSeconds": 3153.46,
+    "growTimeInSeconds": 10091.06,
+    "weakenTimeInSeconds": 12613.82,
+    "maxRAM": 16
   },
   {
     "hostName": "ecorp",
@@ -633,9 +690,10 @@
     "maxMoneyInMillions": 1588547.97,
     "availableMoneyInMillions": 63541.92,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "6935.02",
-    "growTimeInSeconds": "22192.08",
-    "weakenTimeInSeconds": "27740.10"
+    "hackTimeInSeconds": 5694.61,
+    "growTimeInSeconds": 18222.76,
+    "weakenTimeInSeconds": 22778.46,
+    "maxRAM": 0
   },
   {
     "hostName": "fulcrumassets",
@@ -644,9 +702,10 @@
     "maxMoneyInMillions": 25,
     "availableMoneyInMillions": 1,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "7860.09",
-    "growTimeInSeconds": "25152.28",
-    "weakenTimeInSeconds": "31440.35"
+    "hackTimeInSeconds": 6454.22,
+    "growTimeInSeconds": 20653.5,
+    "weakenTimeInSeconds": 25816.87,
+    "maxRAM": 0
   },
   {
     "hostName": "deltaone",
@@ -655,9 +714,10 @@
     "maxMoneyInMillions": 38255.04,
     "availableMoneyInMillions": 1530.2,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4172.65",
-    "growTimeInSeconds": "13352.48",
-    "weakenTimeInSeconds": "16690.59"
+    "hackTimeInSeconds": 3426.32,
+    "growTimeInSeconds": 10964.23,
+    "weakenTimeInSeconds": 13705.28,
+    "maxRAM": 0
   },
   {
     "hostName": "unitalife",
@@ -666,9 +726,10 @@
     "maxMoneyInMillions": 25910.84,
     "availableMoneyInMillions": 1036.43,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "3733.73",
-    "growTimeInSeconds": "11947.92",
-    "weakenTimeInSeconds": "14934.90"
+    "hackTimeInSeconds": 3065.9,
+    "growTimeInSeconds": 9810.89,
+    "weakenTimeInSeconds": 12263.62,
+    "maxRAM": 16
   },
   {
     "hostName": "defcomm",
@@ -677,9 +738,10 @@
     "maxMoneyInMillions": 20743.66,
     "availableMoneyInMillions": 829.75,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "6250.00",
-    "growTimeInSeconds": "20000.00",
-    "weakenTimeInSeconds": "25000.00"
+    "hackTimeInSeconds": 5132.11,
+    "growTimeInSeconds": 16422.76,
+    "weakenTimeInSeconds": 20528.46,
+    "maxRAM": 0
   },
   {
     "hostName": "icarus",
@@ -688,9 +750,10 @@
     "maxMoneyInMillions": 24995.9,
     "availableMoneyInMillions": 999.84,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "5117.02",
-    "growTimeInSeconds": "16374.46",
-    "weakenTimeInSeconds": "20468.07"
+    "hackTimeInSeconds": 4184.77,
+    "growTimeInSeconds": 13391.26,
+    "weakenTimeInSeconds": 16739.07,
+    "maxRAM": 0
   },
   {
     "hostName": "taiyang-digital",
@@ -699,9 +762,10 @@
     "maxMoneyInMillions": 21769.99,
     "availableMoneyInMillions": 870.8,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "4272.22",
-    "growTimeInSeconds": "13671.09",
-    "weakenTimeInSeconds": "17088.86"
+    "hackTimeInSeconds": 3493.88,
+    "growTimeInSeconds": 11180.4,
+    "weakenTimeInSeconds": 13975.51,
+    "maxRAM": 0
   },
   {
     "hostName": "run4theh111z",
@@ -710,64 +774,70 @@
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 4,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.60",
-    "weakenTimeInSeconds": "49.50"
+    "hackTimeInSeconds": 10.12,
+    "growTimeInSeconds": 32.39,
+    "weakenTimeInSeconds": 40.49,
+    "maxRAM": 512
   },
   {
     "hostName": "joesguns",
     "hasRootAccess": true,
     "hackChancePercentage": 87,
     "maxMoneyInMillions": 62.5,
-    "availableMoneyInMillions": 6.1,
+    "availableMoneyInMillions": 38.41,
     "numberOfPortsRequired": 0,
-    "hackTimeInSeconds": "17.85",
-    "growTimeInSeconds": "57.13",
-    "weakenTimeInSeconds": "71.42"
+    "hackTimeInSeconds": 15.14,
+    "growTimeInSeconds": 48.45,
+    "weakenTimeInSeconds": 60.56,
+    "maxRAM": 16
   },
   {
     "hostName": "hong-fang-tea",
     "hasRootAccess": true,
-    "hackChancePercentage": 81,
+    "hackChancePercentage": 82,
     "maxMoneyInMillions": 75,
-    "availableMoneyInMillions": 4.83,
+    "availableMoneyInMillions": 18.53,
     "numberOfPortsRequired": 0,
-    "hackTimeInSeconds": "26.72",
-    "growTimeInSeconds": "85.52",
-    "weakenTimeInSeconds": "106.90"
+    "hackTimeInSeconds": 25.18,
+    "growTimeInSeconds": 80.56,
+    "weakenTimeInSeconds": 100.7,
+    "maxRAM": 16
   },
   {
     "hostName": "zer0",
-    "hasRootAccess": false,
-    "hackChancePercentage": 53,
+    "hasRootAccess": true,
+    "hackChancePercentage": 58,
     "maxMoneyInMillions": 187.5,
     "availableMoneyInMillions": 7.5,
     "numberOfPortsRequired": 1,
-    "hackTimeInSeconds": "127.77",
-    "growTimeInSeconds": "408.87",
-    "weakenTimeInSeconds": "511.08"
+    "hackTimeInSeconds": 105.01,
+    "growTimeInSeconds": 336.03,
+    "weakenTimeInSeconds": 420.04,
+    "maxRAM": 32
   },
   {
     "hostName": "harakiri-sushi",
     "hasRootAccess": true,
-    "hackChancePercentage": 78,
+    "hackChancePercentage": 79,
     "maxMoneyInMillions": 100,
-    "availableMoneyInMillions": 9.29,
+    "availableMoneyInMillions": 74.99,
     "numberOfPortsRequired": 0,
-    "hackTimeInSeconds": "30.70",
-    "growTimeInSeconds": "98.24",
-    "weakenTimeInSeconds": "122.80"
+    "hackTimeInSeconds": 29.79,
+    "growTimeInSeconds": 95.34,
+    "weakenTimeInSeconds": 119.17,
+    "maxRAM": 16
   },
   {
     "hostName": "iron-gym",
-    "hasRootAccess": false,
-    "hackChancePercentage": 43,
+    "hasRootAccess": true,
+    "hackChancePercentage": 49,
     "maxMoneyInMillions": 500,
     "availableMoneyInMillions": 20,
     "numberOfPortsRequired": 1,
-    "hackTimeInSeconds": "197.04",
-    "growTimeInSeconds": "630.54",
-    "weakenTimeInSeconds": "788.18"
+    "hackTimeInSeconds": 161.94,
+    "growTimeInSeconds": 518.22,
+    "weakenTimeInSeconds": 647.77,
+    "maxRAM": 32
   },
   {
     "hostName": "pserv-0",
@@ -776,9 +846,10 @@
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.61",
-    "weakenTimeInSeconds": "49.51"
+    "hackTimeInSeconds": 10.17,
+    "growTimeInSeconds": 32.55,
+    "weakenTimeInSeconds": 40.69,
+    "maxRAM": 4
   },
   {
     "hostName": "pserv-0-0",
@@ -787,8 +858,9 @@
     "maxMoneyInMillions": 0,
     "availableMoneyInMillions": 0,
     "numberOfPortsRequired": 5,
-    "hackTimeInSeconds": "12.38",
-    "growTimeInSeconds": "39.61",
-    "weakenTimeInSeconds": "49.51"
+    "hackTimeInSeconds": 10.17,
+    "growTimeInSeconds": 32.55,
+    "weakenTimeInSeconds": 40.69,
+    "maxRAM": 8
   }
 ]

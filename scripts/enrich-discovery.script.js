@@ -26,7 +26,8 @@ function createServerInfoObject(target) {
     numberOfPortsRequired: getServerNumPortsRequired(target),
     hackTimeInSeconds: parseFloat(getHackTime(target).toFixed(TWO_DECIMAL_PLACES)),
     growTimeInSeconds: parseFloat(getGrowTime(target).toFixed(TWO_DECIMAL_PLACES)),
-    weakenTimeInSeconds: parseFloat(getWeakenTime(target).toFixed(TWO_DECIMAL_PLACES))
+    weakenTimeInSeconds: parseFloat(getWeakenTime(target).toFixed(TWO_DECIMAL_PLACES)),
+    maxRAM: parseFloat(getServerMaxRam(target).toFixed(TWO_DECIMAL_PLACES))
   };
 
 }

@@ -4,9 +4,9 @@ var TWO_DECIMAL_PLACES = 2;
 
 result = [];
 
-for (var i = 0; i < hosts.length; i++) {
-  var target = hosts[i];
-  print('=========' + target + ' (' + calculateProgress(i) + '% done)' + '=========')
+for (var serverCount = 0; serverCount < hosts.length; serverCount++) {
+  var target = hosts[serverCount];
+  print('=========' + target + ' (' + calculateProgress(serverCount) + '% done)' + '=========')
   result.push(createServerInfoObject(target));
 }
 

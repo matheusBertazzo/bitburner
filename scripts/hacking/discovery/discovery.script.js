@@ -10,6 +10,7 @@ for (var i = 0; i < availableHosts.length; i++) {
   print("Discovered hosts so far (" + (i + 1) + "/" + availableHosts.length + " root nodes done): " + discoveredHosts);
 }
 
+discoveredHosts.splice(0, 1); //Need to remove home from the discovery results
 write('host-names.db', discoveredHosts, 'w');
 
 function depthFirstSearch(rootNode) {

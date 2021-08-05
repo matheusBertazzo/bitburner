@@ -1,4 +1,4 @@
-var target = 'harakiri-sushi';
+var target = args[0] || 'n00dles';
 var securityThreshold = getServerMinSecurityLevel(target) + 2;
 var moneyThreshold = getServerMaxMoney(target) * 0.90;
 

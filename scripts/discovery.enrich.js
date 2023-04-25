@@ -1,4 +1,3 @@
-var ONE_MILLION = 1000000;
 var TWO_DECIMAL_PLACES = 2;
 
 /** @param {NS} ns */

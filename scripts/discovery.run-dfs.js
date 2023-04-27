@@ -14,6 +14,7 @@ export async function main(ns) {
 	}
 
 	discoveredHosts.splice(0, 1); //Need to remove home from the discovery results
+	discoveredHosts = [...new Set(discoveredHosts)]
 	ns.write('host-names.db.txt', JSON.stringify(discoveredHosts), 'w');
 }
 

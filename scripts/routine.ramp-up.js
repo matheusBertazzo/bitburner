@@ -1,15 +1,16 @@
 /** @param {NS} ns */
 export async function main(ns) {
+	const RAMP_UP_SERVICE_SCRIPT = 'hack.ramp-up.service.js';
 	var reservedServers = ns.getPurchasedServers().slice(0, 14);
 	ns.run('discovery.run-dfs.js');
 	ns.run('discovery.enrich.js');
 
 	for(let server of reservedServers) {
 		ns.scp('hosts-info.db.txt', server);
-		ns.scp('hack.ramp-up.service.js', server);
+		ns.scp(RAMP_UP_SERVICE_SCRIPT, server);
 		ns.killall(server);
 
-		ns.exec('hack.ramp-up.service.js', server, getMaxThreads(ns, server, 'hack.ramp-up.service.js'));
+		ns.exec(RAMP_UP_SERVICE_SCRIPT, server, getMaxThreads(ns, server, RAMP_UP_SERVICE_SCRIPT));
 	}
 }
 

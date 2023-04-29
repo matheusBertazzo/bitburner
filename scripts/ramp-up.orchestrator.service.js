@@ -64,7 +64,7 @@ export async function main(ns) {
 		}
 
 
-		await ns.sleep(900000);
+		await ns.sleep(1800000);
 	}
 }
 

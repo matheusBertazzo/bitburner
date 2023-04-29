@@ -2,6 +2,7 @@
 export async function main(ns) {
 	let purchasedServers = ns.getPurchasedServers();
 	let ram = ns.getServerMaxRam('pserv') * 2;
+	let waitTimeInSeconds = ns.args[0] || 0;
 	
 	while (ram < Math.pow(2, 20)) {
 		ns.print('Starting upgrading ram to: ' + ram + 'GB');
@@ -19,5 +20,8 @@ export async function main(ns) {
 		}
 
 		ram = ram * 2;
+
+		ns.print('Waiting '+ waitTimeInSeconds +' seconds before triggering upgrades again');
+		await ns.sleep(waitTimeInSeconds * 1000);
 	}
 }

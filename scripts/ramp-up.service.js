@@ -2,44 +2,63 @@
 export async function main(ns) {
 	while (true) {
 		var hosts = JSON.parse(ns.read('hosts-info.db.txt'));
-		var selectedHosts = selectHosts(ns, hosts);		
+		var selectedHosts = selectHosts(hosts);
+
+		ns.print('========================');
+		ns.print('Service started, ramping up ' + selectedHosts.length + ' servers');
+		ns.print('========================');
 
 		for (let host of selectedHosts) {
 			var securityThreshold = ns.getServerMinSecurityLevel(host.hostname) + 3;
 			var moneyThreshold = ns.getServerMaxMoney(host.hostname) * 0.9;
-			
-			if (ns.getServerSecurityLevel(host.hostname) > securityThreshold) {
-				await ns.weaken(host.hostname);
-			} else if (ns.getServerMoneyAvailable(host.hostname) < moneyThreshold) {
-				await ns.grow(host.hostname);
-			} else {
-				if(ns.fileExists('ramped-up-hosts.db.txt')){
-					var rampedHosts = JSON.parse(ns.read('ramped-up-hosts.db.txt'));
-					rampedHosts.push(host.hostname);
-					ns.write('ramped-up-hosts.db.txt', JSON.stringify(rampedHosts), 'w');
-				} else {
-					ns.write('ramped-up-hosts.db.txt', JSON.stringify([host.hostname]), 'w');
-				}
 
-				continue;
+			while (
+				ns.getServerSecurityLevel(host.hostname) > securityThreshold
+				|| ns.getServerMoneyAvailable(host.hostname) < moneyThreshold
+			) {
+				if (ns.getServerSecurityLevel(host.hostname) > securityThreshold) {
+					ns.print('========================');
+					ns.print('Weakening server ' + host.hostname);
+					ns.print('Progress: ' + ns.getServerSecurityLevel(host.hostname) + '/' + securityThreshold);
+					ns.print('========================');
+
+					await ns.weaken(host.hostname);
+					continue;
+				}
+				ns.print('========================');
+				ns.print('Growing server ' + host.hostname);
+				ns.print('Progress: ' + ns.getServerMoneyAvailable(host.hostname) + '/' + moneyThreshold);
+				ns.print('========================');
+
+				await ns.grow(host.hostname);
 			}
+
+			if (ns.fileExists("ramped-up-hosts.db.txt")) {
+				var rampedHosts = JSON.parse(ns.read("ramped-up-hosts.db.txt"));
+				rampedHosts.push(host.hostname);
+				rampedHosts = [...new Set(rampedHosts)];
+				ns.write("ramped-up-hosts.db.txt", JSON.stringify(rampedHosts), "w");
+			} else {
+				ns.write("ramped-up-hosts.db.txt", JSON.stringify([host.hostname]), "w");
+			}
+
 		}
 
+		ns.exec('discovery.enrich.js', 'home');
 		await ns.sleep(60000);
 	}
 }
 
-/** @param {NS} ns */
-function selectHosts(ns, hosts) {
+function selectHosts(hosts) {
 	hosts = hosts.sort(compareHackChance);
 	var selectedHosts = [];
-	var privateServers = ns.getPurchasedServers();
 
 	for (let host of hosts) {
 		if (
-			privateServers.includes(host)
+			host.hostname.includes("pserv")
 			|| host.moneyMax == 0
 			|| host.hackChance < 0.3
+			|| !host.hasAdminRights
 		) {
 			continue;
 		}

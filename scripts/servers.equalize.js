@@ -10,7 +10,9 @@ export async function main(ns) {
 
 	for(let server of servers){		
 		var serverInfo = ns.getServer(server);
-		if(serverInfo.maxRam < targetRam){			
+		if(serverInfo.maxRam < targetRam){	
+			ns.print('Started upgrade process for ' + server + ' (to ' + targetRam + 'GB of RAM)');
+
 			while (ns.getPlayer().money < ns.getPurchasedServerUpgradeCost(serverInfo.hostname, targetRam)) {
 				ns.print('Current money: ' + ns.getPlayer().money);
 				ns.print('Cost of next upgrade for ' + serverInfo.hostname + ': ' + ns.getPurchasedServerUpgradeCost(serverInfo.hostname, targetRam));
@@ -18,7 +20,7 @@ export async function main(ns) {
 			}
 
 			ns.upgradePurchasedServer(serverInfo.hostname, targetRam);
-			ns.print('Server ' + serverInfo.hostname + ' upgraded');
+			ns.print('Server ' + server + ' upgraded to ' + targetRam + 'GB of RAM');
 		}
 	}
 }
